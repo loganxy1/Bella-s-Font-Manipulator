@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title> Font Manipulator </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h2 class="heading"> Font Manipulator
+                <br>
+                <label class="note"> Note: Move Your Wrists Apart And The Font Will Get Bigger, Move Them Closer And The Font Will Get Smaller </label>
+                <br>
+                <label class="idk"> Font Size - </label>
+            </h2>
+            <div id="camera"></div>
+            <div id="square_thing"></div>
+            <br>
+            <div class="footer">
+                Developed By - Bella Kohli
+            </div>
+        </center>
+        <script src="main.js"> </script>
+    </body>
+</html>
+
+<style>
+    .heading{
+        background-color:skyblue;
+        color:white;
+        border-radius:15px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .note{
+        padding-top:15px;
+        padding-bottom:15px;;
+        font-size:20px;
+    }
+
+    .idk{
+        font-size:20px;
+    }
+
+    .footer{
+        margin-top:40px;
+        font-size:20px;
+        color:white;
+        background-color:skyblue;
+        padding-top:15px;
+        padding-bottom:15px;
+        border-radius:15px;
+    }
+
+    #camera{
+        border-radius:15px;
+        border-width:5px;
+        border-style:solid;
+        border-color:grey;
+        width:500px;
+        margin-right:650px;
+        margin-top:75px;
+        box-shadow:5px 5px 10px skyblue;
+        height:350px;
+    }
+
+    #square_thing{
+        border-radius:15px;
+        border-width:5px;
+        border-style:solid;
+        border-color:grey;
+        width:500px;
+        margin-left:650px;
+        margin-top:-350px;
+        box-shadow:5px 5px 10px skyblue;
+        height:350px;
+    }
+
+    canvas{
+        border-radius:12px;
+    }
+</style>
